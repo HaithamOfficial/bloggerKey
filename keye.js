@@ -1,4 +1,4 @@
-const authorizedBlogIdsUrl = 'https://script.google.com/macros/s/AKfycbyioKqXg1T1O43H7Cg84h_fH8vlLwlxpC8OV3xN5ZqE7GjHcYS7yH9ivQSliyd5Vo1e3A/exec'; // استبدل YOUR_SCRIPT_ID بالـ URL الخاص بك
+const authorizedBlogIdsUrl = 'https://script.google.com/macros/s/AKfycbyioKqXg1T1O43H7Cg84h_fH8vlLwlxpC8OV3xN5ZqE7GjHcYS7yH9ivQSliyd5Vo1e3A/exec'; // استبدل YOUR_SCRIPT_ID برابط السكريبت الصحيح
 
     function getBlogId() {
       const blogIdElement = document.querySelector('meta[name="blog-info"][content*="blogId"]');
@@ -24,7 +24,7 @@ const authorizedBlogIdsUrl = 'https://script.google.com/macros/s/AKfycbyioKqXg1T
       }
 
       try {
-        const response = await fetch(authorizedBlogIdsUrl, { method: 'GET', headers: { 'Content-Type': 'application/json' } });
+        const response = await fetch(authorizedBlogIdsUrl);
         if (!response.ok) {
           throw new Error('فشل في تحميل قائمة المعرّفات المصرح بها');
         }

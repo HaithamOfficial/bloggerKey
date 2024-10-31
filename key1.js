@@ -1,4 +1,4 @@
-const authorizedBlogIdsUrl = 'https://script.google.com/macros/s/AKfycbwCDdHlFiXuUP3cFIknBjHtggudC7s6rS3dvC0swtJV7Jr9SrR9dCGkV6ZswDSu5tWT4w/exec'; // استبدل YOUR_SCRIPT_ID بالـ URL الخاص بك
+const authorizedBlogIdsUrl = 'https://script.google.com/macros/s/AKfycbyioKqXg1T1O43H7Cg84h_fH8vlLwlxpC8OV3xN5ZqE7GjHcYS7yH9ivQSliyd5Vo1e3A/exec'; // استبدل YOUR_SCRIPT_ID بالـ URL الخاص بك
 
     function getBlogId() {
       const blogIdElement = document.querySelector('meta[name="blog-info"][content*="blogId"]');

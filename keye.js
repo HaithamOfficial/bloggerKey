@@ -1,4 +1,4 @@
-const authorizedBlogIdsUrl = 'https://script.google.com/macros/s/AKfycbyioKqXg1T1O43H7Cg84h_fH8vlLwlxpC8OV3xN5ZqE7GjHcYS7yH9ivQSliyd5Vo1e3A/exec'; // استبدل YOUR_SCRIPT_ID برابط السكريبت الصحيح
+const authorizedBlogIdsUrl = 'https://script.google.com/macros/s/AKfycbzO2ZkyymlyD5y5oqSaffPH4HIuCxH6GB-o7ZueULgl/dev'; // استبدل YOUR_SCRIPT_ID برابط السكريبت الصحيح
 
     function getBlogId() {
       const blogIdElement = document.querySelector('meta[name="blog-info"][content*="blogId"]');

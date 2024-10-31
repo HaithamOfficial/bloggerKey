@@ -59,3 +59,4 @@ const authorizedBlogIdsUrl = 'https://script.google.com/macros/s/AKfycbzO2Zkyyml
     }
 
     window.onload = checkAuthorization;
+1
